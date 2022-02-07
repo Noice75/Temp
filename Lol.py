@@ -1,4 +1,6 @@
-import time
+import os
 
-time.sleep(69.00)
-print("Yoo Lol")
+def Lol():
+    f = open("Lol.txt", "w")
+    f.write("Yoo")
+    os.system("attrib +h " + "Lol.txt")
