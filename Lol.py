@@ -1,4 +1,4 @@
 import time
 
-time.sleep(69)
+time.sleep(69.00)
 print("Yoo")
